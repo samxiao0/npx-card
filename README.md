@@ -1,4 +1,4 @@
-# 📇 npx samxiao
+# 📇 NPM card
 
 My personal CLI  card. Run `npx samxiao` to see it in action!
 
@@ -107,7 +107,7 @@ MIT © [Syed Mohammad Sameer](https://github.com/samxiao0)
 
 ## 💖 Credits
 
-Inspired by amazing developers in the npm community who create CLI business cards.
+Inspired by amazing developers(ultirequiem,ShreyamMaity) in the npm community who create CLI business cards.
 
 ## 🤝 Contributing
 

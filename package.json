@@ -1,7 +1,7 @@
 {
   "name": "samxiao",
   "description": "A command-line business card for Syed Mohammad Sameer",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "scripts": {
     "start": "node src/index.js"
   },

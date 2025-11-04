@@ -10,11 +10,8 @@ import process from "process";
 
 import data from "./config.js";
 
-// Clear the terminal (simple ANSI clear). Keep this so the card appears alone.
-process.stdout.write("\x1b[2J");
-
-// Add some vertical spacing at the top
-console.log("\n\n");
+// Clear the terminal and move cursor to top-left
+process.stdout.write('\x1Bc');
 
 // Build a multi-line output using the fields present in `data`.
 const lines = [];
@@ -47,13 +44,13 @@ const decoratedContent = `${headerFooter}\n\n${centered}\n\n${headerFooter}`;
 
 const box = boxen(decoratedContent, {
   padding: { top: 1, bottom: 1, left: 3, right: 3 },
-  margin: { top: 1, bottom: 1, left: 'auto', right: 'auto' },
+  margin: { top: 0, bottom: 1, left: 'auto', right: 'auto' },
   float: 'center',
   borderStyle: "round",
   borderColor: "green",
   textAlignment: "center",
   width: 90,
-  fullscreen: false
+  dimBorder: false
 });
 
 console.log(box);
