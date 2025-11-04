@@ -1,0 +1,31 @@
+{
+  "name": "samxiao",
+  "description": "A command-line business card for Syed Mohammad Sameer",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "samxiao <syedsame2244@gmail.com>",
+  "bin": {
+    "samxiao": "src/index.js"
+  },
+  "type": "module",
+  "files": [
+    "src",
+    "templates"
+  ],
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.6.2",
+    "create-create-app": "^7.0.0",
+    "inquirer": "^12.10.0",
+    "open": "^10.2.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0"
+  }
+}
