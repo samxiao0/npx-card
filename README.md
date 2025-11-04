@@ -107,7 +107,7 @@ MIT © [Syed Mohammad Sameer](https://github.com/samxiao0)
 
 ## 💖 Credits
 
-Inspired by amazing developers(ultirequiem,ShreyamMaity) in the npm community who create CLI business cards.
+Inspired by amazing developers(ultirequiem,ShreyamMaity) in the npm community who create CLI name cards.
 
 ## 🤝 Contributing
 
